@@ -2,8 +2,36 @@ body {
     background-color: burlywood;
 }
 
-h2 {
+body {
     font-family: "Comic Sans MS";
+    color: aqua;
+}
+
+h1 {
+    font-family: "Andale Mono";
+    color: aquamarine;
+}
+
+h3 {
+    font-family: "Apple Chancery";
+    color: coral;
+}
+
+img {
+    border-width: medium;
+    border-color: blueviolet;
 }
 
 
+
+
+
+
+
+
+
+body
+headings
+paragraphs
+lists
+images
