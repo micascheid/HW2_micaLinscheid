@@ -18,20 +18,10 @@ h3 {
 }
 
 img {
-    border-width: medium;
-    border-color: blueviolet;
+    border: 5px solid blueviolet;
 }
 
+.test:hover {
+    background-color: black;
+}
 
-
-
-
-
-
-
-
-body
-headings
-paragraphs
-lists
-images
