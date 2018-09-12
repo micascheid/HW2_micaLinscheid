@@ -4,14 +4,25 @@
     <meta charset="UTF-8">
     <title>Cameron</title>
     <link rel="stylesheet" href="main.css">
+    <script src="colorize.js"></script>
 </head>
-<body>
+<body id="main">
     <h2>Click the Face of Cameron...</h2>
     <img src="images/cameron.jpg" usemap="#cameronMap" title="Which one is Cameron?">
     <map name="cameronMap">
-        <area shape="circle" coords="55 72 20" href="correct.html" alt="Cameron">
-        <area shape="circle" coords="205 96 20" href="wrong.html" alt="Sloane">
-        <area shape="circle" coords="382 62 20" href="wrong.html" alt="Ferris">
+        <area shape="circle" coords="55 72 20" onclick="correct()" alt="Cameron">
+        <area shape="circle" coords="205 96 20" onclick="wrong()" alt="Sloane">
+        <area shape="circle" coords="382 62 20" onclick="wrong()" alt="Ferris">
     </map>
+
+    <p id="description">Congrats you found Cameron! Before Alan Ruck’s<br>
+        acting career accelerated in Speed, spun ahead in Twister <br>
+        and made a recognizable turn on television with Spin City, <br>
+        he triumphantly played the prerequisite poster child for <br>
+        depressed suburban youth as Cameron Frye in John Hughes’ <br>
+        (screenwriter, director, producer) magnetic pop culture <br>
+        monolith Ferris Bueller’s Day Off.</p>
+
+    <a href="index.html">Home</a>
 </body>
 </html>

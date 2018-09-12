@@ -4,14 +4,27 @@
     <meta charset="UTF-8">
     <title>Ferris</title>
     <link rel="stylesheet" href="main.css">
+    <script src="colorize.js"></script>
 </head>
-<body>
+<body id="main">
     <h2>Click the Face of Ferris...</h2>
     <img src="images/ferris.jpg" usemap="#ferrisMap" title="Which one is Ferris?">
     <map name="ferrisMap">
-        <area shape="circle" coords="155 51 22" href="wrong.html" alt="Cameron">
-        <area shape="circle" coords="246 57 20" href="wrong.html" alt="Sloane">
-        <area shape="circle" coords="304 41 20" href="correct.html" alt="Ferris">
+        <area shape="circle" coords="155 51 22" onclick="wrong()" alt="Cameron">
+        <area shape="circle" coords="246 57 20" onclick="wrong()" alt="Sloane">
+        <area shape="circle" coords="304 41 20" onclick="correct()" alt="Ferris">
     </map>
+
+    <p id="description">Congrats you found Ferris! High school student<br>
+        Ferris Bueller wants a day off from school and he's developed <br>
+        an incredibly sophisticated plan to pull it off. <br>
+        He talks his friend Cameron into taking his father's prized<br>
+        Ferrari and with his girlfriend Sloane head into Chicago for the day.<br>
+        While they are taking in what the city has to offer school <br>
+        principal Ed Rooney is convinced that Ferris is, not for the first time,<br>
+        playing hooky for the day and is hell bent to catch him out. <br>
+        Ferris has anticipated that, much to Rooney's chagrin.</p>
+
+    <a href="index.html">Home</a>
 </body>
 </html>

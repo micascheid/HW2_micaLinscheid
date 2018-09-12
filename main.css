@@ -4,7 +4,7 @@ body {
 
 body {
     font-family: "Comic Sans MS";
-    color: aqua;
+    color: darkgoldenrod;
 }
 
 h1 {
@@ -21,7 +21,22 @@ img {
     border: 5px solid blueviolet;
 }
 
-.test:hover {
-    background-color: black;
+p {
+    color: coral;
+    background-color: aquamarine;
+    border: 5px solid black;
+    visibility: hidden;
+}
+
+a {
+    font: large bold;
+}
+
+li {
+    color: chocolate;
+}
+
+.background {
+    background-color: beige;
 }
 

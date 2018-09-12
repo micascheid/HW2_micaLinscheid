@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <title>Sloane</title>
     <link rel="stylesheet" href="main.css">
+    <script src="colorize.js"></script>
 </head>
-<body id="main" style="background: r">
-    <h2 class="test">Click the Face of Sloane...</h2>
+<body id="main">
+    <h2>Click the Face of Sloane...</h2>
     <img src="images/sloane.jpg" usemap="#sloaneMap" title="Which one is Sloane?">
     <map name="sloaneMap">
         <area shape="circle" coords="138 144 22" alt="Sloane" onclick="correct()">
@@ -14,16 +15,16 @@
         <area shape="circle" coords="343 67 20" alt="Cameron" onclick="wrong()">
     </map>
 
-    <script>
-        function correct(){
-           var body = document.getElementById("main");
-           body.style.backgroundColor = "#7fff00";
-        }
+    <p id="description">Congrats you found sloane! The fact remains that Sloane's a girl,<br>
+        so she must be somebody's love interest, right? That's what the <br>
+        film seems to suggest by propping Sloane up as such a thin character.<br>
+        If nothing else, she's there to run interference between Ferris and Cameron.<br>
+        At the Von Steuben Parade, when Cameron thinks Ferris has ditched them and<br>
+        gets worked up accordingly, Sloane talks him off the ledge.<br>
+        So Sloane seems like a solid friend; beyond that, however,<br>
+        we don't know much about her.</p>
 
-        function wrong() {
-            var body = document.getElementById("main");
-            body.style.backgroundColor = "#ff0000";
-        }
-    </script>
+    <a href="index.html">Home</a>
+
 </body>
 </html>
