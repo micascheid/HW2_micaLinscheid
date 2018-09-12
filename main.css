@@ -15,28 +15,26 @@ h1 {
 h3 {
     font-family: "Apple Chancery";
     color: coral;
+    background-color: beige;
 }
 
 img {
     border: 5px solid blueviolet;
 }
 
-p {
-    color: coral;
-    background-color: aquamarine;
-    border: 5px solid black;
-    visibility: hidden;
-}
-
-a {
-    font: large bold;
-}
-
 li {
     color: chocolate;
 }
 
-.background {
-    background-color: beige;
+.correct {
+    color: coral;
+    background-color: aquamarine;
+    border: .5em solid black;
+    visibility: hidden;
 }
+
+.vis {
+    visibility: visible;
+}
+
 
