@@ -35,6 +35,13 @@ li {
 
 .vis {
     visibility: visible;
+    background-color: darkgrey;
 }
 
+.backGreen {
+    background-color: #7fff00;
+}
 
+.backRed {
+    background-color: #ff0000;
+}

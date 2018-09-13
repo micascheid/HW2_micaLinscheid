@@ -1,7 +1,7 @@
 function correct(){
     var body = document.getElementById("main");
     var description = document.getElementById("description");
-    body.style.backgroundColor = "#7fff00";
+    body.classList.add("backGreen");
     description.style.visibility = "visible"
 
 
@@ -10,7 +10,7 @@ function correct(){
 function wrong() {
     var body = document.getElementById("main");
     var description = document.getElementById("description");
-    body.style.backgroundColor = "#ff0000";
+    body.classList.add("backRed")
     description.style.visibility = "hidden"
     document.getElementsByClassName("correct")
 }
